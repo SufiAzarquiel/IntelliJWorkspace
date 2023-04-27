@@ -1,11 +1,11 @@
 package org.sufiAzarquiel;
 
-import org.sufiAzarquiel.FirstFileManage.MyFileManager;
+import org.sufiAzarquiel.FirstFileManage.MainWindow;
+
+import javax.swing.JFrame;
 
 public class App {
     public static void main(String[] args) {
-        MyFileManager fileManager = new MyFileManager();
-        fileManager.writeToFile("Hello World!");
-        fileManager.writeToFile("Second line (same main).");
+
     }
 }
