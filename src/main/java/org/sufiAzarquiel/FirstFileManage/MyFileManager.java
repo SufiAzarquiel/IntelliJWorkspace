@@ -23,7 +23,7 @@ public class MyFileManager {
 
     // ---------------------------- Constructors ----------------------------
     public MyFileManager() {
-        // For now it always points to the same file
+        // For now, it always points to the same file
         this.writer = null;
         this.path = "C:\\Users\\diurno\\Desktop\\myFile.txt";
         this.file = new File(path);
