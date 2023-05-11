@@ -1,4 +1,4 @@
-package org.sufiAzarquiel.rebajaVehiculo;
+package org.sufiAzarquiel.tareaArchivos.rebajaVehiculo;
 
 import java.io.Serializable;
 import java.util.ArrayList;

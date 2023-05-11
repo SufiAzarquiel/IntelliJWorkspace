@@ -1,4 +1,4 @@
-S1:España
+S1:EspaÃ±a
 S2:Portugal
 S3:Francia
 S4:Argentina

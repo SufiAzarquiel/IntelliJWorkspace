@@ -1,6 +1,4 @@
-package org.sufiAzarquiel.rebajaVehiculo;
-
-import org.sufiAzarquiel.Agenda.Agenda;
+package org.sufiAzarquiel.tareaArchivos.rebajaVehiculo;
 
 import java.io.*;
 
