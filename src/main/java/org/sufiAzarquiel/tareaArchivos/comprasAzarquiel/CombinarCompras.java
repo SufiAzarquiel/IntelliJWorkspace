@@ -16,10 +16,10 @@ public class CombinarCompras {
         Compra compra;
         Path path = Path.of("comprasNuevas.obj");
         try (InputStream is = Files.newInputStream(path);
-             ObjectInputStream oos = new ObjectInputStream(is)) {
+             ObjectInputStream ois = new ObjectInputStream(is)) {
             while (true) {
                 try {
-                    compra = (Compra) oos.readObject();
+                    compra = (Compra) ois.readObject();
                     System.out.println(compra.getDepartamento() + " " + compra.getCantidad());
                 } catch (EOFException e) {
                     break;
@@ -35,10 +35,10 @@ public class CombinarCompras {
         Compra compraRead;
         Path path = Path.of("compras.obj");
         try (InputStream is = Files.newInputStream(path);
-             ObjectInputStream oos = new ObjectInputStream(is)) {
+             ObjectInputStream ois = new ObjectInputStream(is)) {
             while (true) {
                 try {
-                    compraRead = (Compra) oos.readObject();
+                    compraRead = (Compra) ois.readObject();
                     compras.add(compraRead);
                 } catch (EOFException e) {
                     break;
